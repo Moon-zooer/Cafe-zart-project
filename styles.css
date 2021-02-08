@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a {
+    color:gray;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}                   
+p {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: 0, 10px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;  
+    position: fixed;   
+    background-color:rgba(255, 245, 238, 0.7);
+}
+
+header img {
+    height: 70px;
+    margin-left: 20px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1; 
+    font-size: 20px;      
+}
+
+nav span {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Main Content Container */
+
+.main {
+    padding-top: 69px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Section */
+
+#banner {
+    background-image: url(zart-01.jpg);
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    color: seashell;
+
+}
+
+/* About */
+
+.grid {
+    height: 400px;
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+.box {
+    text-align: center;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.title {
+    grid-column-start: 2; 
+    color:#1E88A8;
+}
+
+.text {
+    grid-column: 3/5;
+    align-content: center;
+    margin: auto 40px;
+}
+
+/* Menu */
+
+.menus {
+    display: grid;
+    height: 500px;
+    margin: 100px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.menu {
+    border-radius: 30px;
+}
+
+.a {
+    background-image: url(menu-01.jpg);
+    background-size: cover;
+}
+
+.b {
+    background-image: url(menu-02.jpg);
+    background-size: cover;
+}
+
+.c {
+    background-image: url(menu-03.jpg);
+    background-size: cover;
+}
+
+/* Contact */
+
+.address {
+    grid-column-start: 2; 
+    line-height: 20px;
+    padding: 50px 0;
+    align-content: start;
+}
+
+.address h2 {
+    color:#1E88A8;
+    margin-bottom: 20px;
+}
+
+.address h4 {
+    line-height: 30px;
+}
+
+.newsletter {
+    grid-column: 3/5;
+    align-content: center;
+}
+
+/* Newsletter */
+
+/* Style the form element with a border around it */
+form {
+
+    background-color:rgba(215, 196, 187, 0.2);
+
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    align-items: center;
+  }
+
+  .container p {
+      color:gray;
+      margin: auto;
+      text-align: center;
+
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #1E88A8;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: left;
+    color: gray;
+}
