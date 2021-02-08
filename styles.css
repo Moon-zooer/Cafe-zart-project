@@ -74,7 +74,7 @@ nav span {
 /* Banner Section */
 
 #banner {
-    background-image: url(zart-01.jpg);
+    background-image: url(images/zart-01.jpg);
     background-size: cover;
     height: 600px;
     align-items: center;
@@ -126,17 +126,17 @@ nav span {
 }
 
 .a {
-    background-image: url(menu-01.jpg);
+    background-image: url(images/menu-01.jpg);
     background-size: cover;
 }
 
 .b {
-    background-image: url(menu-02.jpg);
+    background-image: url(images/menu-02.jpg);
     background-size: cover;
 }
 
 .c {
-    background-image: url(menu-03.jpg);
+    background-image: url(images/menu-03.jpg);
     background-size: cover;
 }
 
